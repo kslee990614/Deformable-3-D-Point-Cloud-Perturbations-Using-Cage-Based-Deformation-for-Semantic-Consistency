@@ -1,8 +1,27 @@
-# Deformable 3D Point Cloud Perturbations using Cage-based Deformation for Semantic Consistency
+<div align="center">
 
-**Kyo Seok Lee and Hak Gu Kim · IEEE TIFS 2026**
+<h1>Deformable 3D Point Cloud Perturbations<br>using Cage-based Deformation for Semantic Consistency</h1>
 
-[Paper](https://ieeexplore.ieee.org/document/11534487) | [Project Page](https://irislab.cau.ac.kr/Deformable-3D-ADV/)
+<p><b>Kyo Seok Lee and Hak Gu Kim</b><br>IEEE Transactions on Information Forensics and Security, 2026</p>
+
+<p><a href="https://ieeexplore.ieee.org/document/11534487">Paper</a> &nbsp;·&nbsp; <a href="https://irislab.cau.ac.kr/Deformable-3D-ADV/">Project Page</a></p>
+
+</div>
+
+## Overview
+
+<p align="center">
+  <a href="https://irislab.cau.ac.kr/Deformable-3D-ADV/">
+    <img src="assets/teaser.gif" width="100%" alt="Airplane adversarial deformation: source point cloud, adversarial example and target point cloud">
+  </a>
+</p>
+<p align="center"><b>Source → Adversarial example → Target</b><br>Airplane → Rocket classifier prediction, with smooth deformation that preserves the source category visually.</p>
+
+<p align="center">
+  <img src="assets/method.png" width="100%" alt="Proposed framework: source cage generation, adversarial cage displacement prediction and deformable point cloud perturbation">
+</p>
+
+**Generate the source cage → Predict adversarial cage displacements → Deform the point cloud.** Source–target features guide cage displacements, which are propagated to the source points using mean value coordinates.
 
 ## Installation
 
