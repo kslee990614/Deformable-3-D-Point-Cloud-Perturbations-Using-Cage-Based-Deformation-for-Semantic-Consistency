@@ -14,7 +14,7 @@
 
 <h2 align="center">Results</h2>
 
-<p align="center"><img src="assets/airplane-rocket.svg" width="260" alt="AIRPLANE → ROCKET"></p>
+<p align="center"><img src="assets/airplane-rocket.svg" width="180" alt="AIRPLANE → ROCKET"></p>
 
 <p align="center">
   <a href="https://irislab.cau.ac.kr/Deformable-3D-ADV/">
@@ -22,6 +22,8 @@
   </a>
 </p>
 <p align="center"><sub>Source point cloud · Adversarial example · Target point cloud</sub></p>
+
+The deformed airplane remains visually recognizable but is misclassified as a rocket.
 
 ---
 
@@ -31,7 +33,7 @@
   <img src="assets/method.png" width="100%" alt="Proposed framework: source cage generation, adversarial cage displacement prediction and deformable point cloud perturbation">
 </p>
 
-<p align="center"><b>Source cage generation → Adversarial cage prediction → Point cloud deformation</b></p>
+We refine a source cage, predict adversarial cage displacements from source–target features, and deform the point cloud using mean value coordinates.
 
 ---
 
