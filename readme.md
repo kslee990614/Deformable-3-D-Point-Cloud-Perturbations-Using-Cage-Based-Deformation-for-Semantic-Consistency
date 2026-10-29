@@ -10,12 +10,14 @@
 
 ## Overview
 
+<p align="center"><img src="assets/airplane-rocket.svg" width="260" alt="AIRPLANE → ROCKET"></p>
+
 <p align="center">
   <a href="https://irislab.cau.ac.kr/Deformable-3D-ADV/">
     <img src="assets/teaser.gif" width="100%" alt="Airplane adversarial deformation: source point cloud, adversarial example and target point cloud">
   </a>
 </p>
-<p align="center"><b>Source → Adversarial example → Target</b><br>Airplane → Rocket classifier prediction, with smooth deformation that preserves the source category visually.</p>
+<p align="center"><sub>Click the animation to view the interactive results on the project page.</sub></p>
 
 <p align="center">
   <img src="assets/method.png" width="100%" alt="Proposed framework: source cage generation, adversarial cage displacement prediction and deformable point cloud perturbation">
