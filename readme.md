@@ -2,13 +2,17 @@
 
 <h1>Deformable 3D Point Cloud Perturbations<br>using Cage-based Deformation for Semantic Consistency</h1>
 
-<p><b>Kyo Seok Lee and Hak Gu Kim</b><br>IEEE Transactions on Information Forensics and Security, 2026</p>
+<p><b>Kyo Seok Lee and Hak Gu Kim</b><br>Chung-Ang University</p>
+<p><b>IEEE Transactions on Information Forensics and Security (T-IFS), 2026</b></p>
 
-<p><a href="https://ieeexplore.ieee.org/document/11534487">Paper</a> &nbsp;·&nbsp; <a href="https://irislab.cau.ac.kr/Deformable-3D-ADV/">Project Page</a></p>
+<p>
+  <a href="https://ieeexplore.ieee.org/document/11534487"><img src="assets/paper.svg" height="36" alt="Paper"></a>
+  <a href="https://irislab.cau.ac.kr/Deformable-3D-ADV/"><img src="assets/project-page.svg" height="36" alt="Project Page"></a>
+</p>
 
 </div>
 
-## Overview
+<h2 align="center">Results</h2>
 
 <p align="center"><img src="assets/airplane-rocket.svg" width="260" alt="AIRPLANE → ROCKET"></p>
 
@@ -17,13 +21,19 @@
     <img src="assets/teaser.gif" width="100%" alt="Airplane adversarial deformation: source point cloud, adversarial example and target point cloud">
   </a>
 </p>
-<p align="center"><sub>Click the animation to view the interactive results on the project page.</sub></p>
+<p align="center"><sub>Source point cloud · Adversarial example · Target point cloud</sub></p>
+
+---
+
+<h2 align="center">Method</h2>
 
 <p align="center">
   <img src="assets/method.png" width="100%" alt="Proposed framework: source cage generation, adversarial cage displacement prediction and deformable point cloud perturbation">
 </p>
 
-**Generate the source cage → Predict adversarial cage displacements → Deform the point cloud.** Source–target features guide cage displacements, which are propagated to the source points using mean value coordinates.
+<p align="center"><b>Source cage generation → Adversarial cage prediction → Point cloud deformation</b></p>
+
+---
 
 ## Installation
 
