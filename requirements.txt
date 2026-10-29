@@ -1,0 +1,14 @@
+# Install matching PyTorch, CUDA toolkit and faiss-gpu separately.
+# This is a dependency inventory, not a verified reproducibility lock.
+pymesh2==0.2.1
+numpy
+scipy
+openmesh
+plyfile
+matplotlib
+joblib
+tqdm
+# Optional legacy dataset KNN branch.
+scikit-learn
+# HDF5 dataset conversion with prepare_data.py.
+h5py
