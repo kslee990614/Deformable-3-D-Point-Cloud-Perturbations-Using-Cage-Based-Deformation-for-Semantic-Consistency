@@ -23,7 +23,7 @@
     <img src="assets/teaser.gif" width="100%" alt="Airplane adversarial deformation: source point cloud, adversarial example and target point cloud">
   </a>
 </p>
-<p align="center"><sub>The deformed airplane remains visually recognizable but is misclassified as a rocket.</sub></p>
+<p align="center">The deformed airplane remains visually recognizable but is misclassified as a rocket.</p>
 
 ---
 
