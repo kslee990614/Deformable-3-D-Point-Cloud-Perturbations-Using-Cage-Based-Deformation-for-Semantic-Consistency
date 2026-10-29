@@ -14,6 +14,8 @@
 
 <h2 align="center">Results</h2>
 
+<p align="center">From left to right: the source point cloud, its adversarially deformed example, and the target point cloud guiding the deformation.</p>
+
 <p align="center"><img src="assets/airplane-rocket.svg" width="180" alt="AIRPLANE → ROCKET"></p>
 
 <p align="center">
@@ -21,9 +23,7 @@
     <img src="assets/teaser.gif" width="100%" alt="Airplane adversarial deformation: source point cloud, adversarial example and target point cloud">
   </a>
 </p>
-<p align="center"><sub>Source point cloud · Adversarial example · Target point cloud</sub></p>
-
-The deformed airplane remains visually recognizable but is misclassified as a rocket.
+<p align="center"><sub>The deformed airplane remains visually recognizable but is misclassified as a rocket.</sub></p>
 
 ---
 
@@ -33,7 +33,16 @@ The deformed airplane remains visually recognizable but is misclassified as a ro
   <img src="assets/method.png" width="100%" alt="Proposed framework: source cage generation, adversarial cage displacement prediction and deformable point cloud perturbation">
 </p>
 
-We refine a source cage, predict adversarial cage displacements from source–target features, and deform the point cloud using mean value coordinates.
+Our framework consists of three stages:
+
+> **① Source Cage Generation**  
+> Initialize a rough cage from a regular icosahedron and refine it with an encoder–decoder network to fit the source point cloud.
+
+> **② Adversarial Cage Generation**  
+> Encode the source and target point clouds, fuse their geometric features, and predict cage-vertex displacements that guide the adversarial deformation.
+
+> **③ Deformable 3D Point Cloud Perturbations**  
+> Propagate cage motions to individual points through mean value coordinates, using their geometric relationships to produce smooth, coherent deformations that preserve visual identity while misleading the classifier.
 
 ---
 
